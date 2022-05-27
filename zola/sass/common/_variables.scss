@@ -72,11 +72,11 @@ $link-decoration:                         none;
 // Define the maximum width of `.container` for different screen sizes.
 
 $container-max-widths: (
-  sm: 540px, // original after 576: 540px
-  md: 720px, // original after 768: 720px
-  lg: 960px, // original after 992: 960px
-  xl: 1140px, // original after 1200: 1140px
-  xxl: 1500px // original after 1400: 1320px
+  sm: 1240px, // original after 576: 540px		Default is 540
+  md: 1320px, // original after 768: 720px		Default is 620
+  lg: 1660px, // original after 992: 960px		Default is 960
+  xl: 1840px, // original after 1200: 1140px	Default is 1140
+  xxl: 2200px // original after 1400: 1320px	Default is 1500
 );
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");
